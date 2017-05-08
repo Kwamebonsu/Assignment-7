@@ -16,7 +16,7 @@ public class A7Q7 {
     /**
      * @param args the command line arguments
      */
-    public static int lastDigit(int number) {
+    public static int firstDigit(int number) {
         // Divide by 10 until the number is less than 10
         while (number >= 10) {
             number = number / 10;
@@ -35,6 +35,6 @@ public class A7Q7 {
         // Test the method
         System.out.println("Please input a number");
         int n = input.nextInt();
-        System.out.println(lastDigit(n));
+        System.out.println(firstDigit(n));
     }
 }
